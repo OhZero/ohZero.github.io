@@ -1,41 +1,41 @@
-# Compiled Lua sources
-luac.out
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
 
-# luarocks build files
-*.src.rock
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
 *.zip
-*.tar.gz
+*.vi
+*~
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
 
-# Precompiled Headers
-*.gch
-*.pch
+# Komodo
+*.komodoproject
+.komodotools
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+# grunt-html-validation
+validation-status.json
+validation-report.json
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# Folders to ignore
+node_modules
